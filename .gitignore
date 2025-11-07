@@ -1,0 +1,44 @@
+# ============================================================
+# ArcGIS Files
+# ============================================================
+*.lock
+*.sr.lock
+*.sbn
+*.sbx
+*.cpg
+
+# Temporary files
+Temp_*.shp
+Temp_*.dbf
+Temp_*.shx
+Temp_*.prj
+
+# ============================================================
+# Data Files (Confidential)
+# ============================================================
+# Input data
+road_search_data/input/*
+!road_search_data/input/.gitkeep
+
+# Output shapefiles
+road_search_data/output/shapefiles/*
+!road_search_data/output/shapefiles/.gitkeep
+
+# Output excel
+road_search_data/output/excel/*
+!road_search_data/output/excel/.gitkeep
+
+# ============================================================
+# Python
+# ============================================================
+__pycache__/
+*.py[cod]
+*.pyc
+
+# ============================================================
+# System Files
+# ============================================================
+.DS_Store
+Thumbs.db
+Desktop.ini
+*~
