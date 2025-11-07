@@ -16,17 +16,11 @@ Temp_*.prj
 # ============================================================
 # Data Files (Confidential)
 # ============================================================
-# Input data
-road_search_data/input/*
-!road_search_data/input/.gitkeep
+# Input data：Original Road Map Content
 
-# Output shapefiles
-road_search_data/output/shapefiles/*
-!road_search_data/output/shapefiles/.gitkeep
+# Output shapefiles content
 
-# Output excel
-road_search_data/output/excel/*
-!road_search_data/output/excel/.gitkeep
+# Output excel content
 
 # ============================================================
 # Python
