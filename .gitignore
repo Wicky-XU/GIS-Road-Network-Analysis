@@ -16,11 +16,18 @@ Temp_*.prj
 # ============================================================
 # Data Files (Confidential)
 # ============================================================
-# Input data：Original Road Map Content
 
-# Output shapefiles content
+# Input data - keep README.md only
+road_search_data/input/*
+!road_search_data/input/README.md
 
-# Output excel content
+# Output shapefiles - keep README.md only
+road_search_data/output/shapefiles/*
+!road_search_data/output/shapefiles/README.md
+
+# Output excel - keep README.md only
+road_search_data/output/excel/*
+!road_search_data/output/excel/README.md
 
 # ============================================================
 # Python
